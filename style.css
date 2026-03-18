@@ -20,10 +20,10 @@ body {
     max-width: 1000px;
     width: 100%;
     background: #0a0a0a;
-    border: 1px solid #333333;
+    border: 1px solid #333333;        
     border-radius: 8px;
     padding: 32px 32px 40px;
-    color: #cccccc;
+    color: #cccccc;                    
 }
 
 .prompt {
@@ -103,8 +103,6 @@ body {
     line-height: 1.7;
     color: #cccccc;
     margin-bottom: 40px;
-    overflow-x: auto;
-    white-space: pre-wrap;
 }
 
 .sections {
@@ -134,9 +132,8 @@ body {
     font-size: 1.2rem;
     line-height: 1.8;
     color: #cccccc;
-    white-space: pre;
+    white-space: pre-wrap;
     padding-left: 16px;
-    overflow-x: auto;
 }
 
 .section-content a {
@@ -161,61 +158,60 @@ body {
     max-width: 1000px;
     padding: 20px 0;
     border-top: 1px solid #333333;
-    overflow-x: auto;
-    white-space: nowrap;
 }
 
 @media (max-width: 600px) {
     .terminal {
-        padding: 20px 10px;
+        padding: 20px 12px;
         overflow-x: auto;
     }
 
     .prompt {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         white-space: nowrap;
-    }
 
     .term-btn {
         font-size: 1rem;
         letter-spacing: 1px;
-        padding: 6px 4px;
+        padding: 6px 2px;
         white-space: nowrap;
     }
 
-    .buttons {
-        gap: 8px 12px;
-        justify-content: center;
-    }
-
     .output {
-        font-size: 1rem;
         padding: 12px;
-        white-space: pre-wrap;
+        font-size: 0.95rem;
         overflow-x: auto;
+        white-space: pre-wrap;
     }
 
     .section-prompt {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         white-space: nowrap;
     }
 
     .section-content {
-        font-size: 1rem;
+        font-size: 0.95rem;
         padding-left: 8px;
-        white-space: pre;              
-        overflow-x: auto;               
-        -webkit-overflow-scrolling: touch;
-        width: max-content;             
-        min-width: 100%;                 
+        overflow-x: auto;
+        white-space: pre;
+    }
+
+    .section-content br {
+        display: block;
+        content: "";
+        margin: 4px 0;
     }
 
     .copyright {
         font-size: 1.2rem;
-        white-space: nowrap;
-        overflow-x: auto;
-        -webkit-overflow-scrolling: touch;
         margin-top: 30px;
         padding: 12px 0;
+        white-space: nowrap;
+        overflow-x: auto;
+    }
+
+    .buttons {
+        gap: 8px 16px;
+        justify-content: center;
     }
 }
