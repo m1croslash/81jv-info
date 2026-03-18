@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>81jv - portfolio :: terminal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="terminal">
+        <div class="prompt">
+            <span class="user">81jv@cyber</span>:<span class="path">~</span>$ <span class="cursor">_</span>
+        </div>
+
+        <div class="buttons">
+            <button class="term-btn" data-target="about">About me</button>
+            <button class="term-btn" data-target="skills">Skills</button>
+            <button class="term-btn" data-target="contact">Contact</button>
+        </div>
+
+        <div class="output" id="output">
+            > Welcome to the terminal.<br>
+        </div>
+
+        <div class="sections">
+            <div id="about" class="section">
+                <div class="section-prompt">> about_me</div>
+                <div class="section-content">
+                  [ role ]<br>
+                    ▪  Senior Security Analyst (3+ years)<br>
+                    ▪  Security enthusiast / Intermediate-level practitioner<br>
+                  [ philosophy ]<br>
+                    Effective defense requires understanding the attacker.<br>
+                </div>
+            </div>
+
+            <div id="skills" class="section">
+                <div class="section-prompt">> skills</div>
+                <div class="section-content">
+                  [ programming ]<br>
+                    ▪  Python (exploit dev, automation, scapy)<br>
+                    ▪  C (reverse engineering, memory corruption)<br>
+                    ▪  Bash / PowerShell (post-exploitation, scripting)<br>
+                  [ web security ]<br>
+                    ▪  SQL injection (union-based, blind, out-of-band)<br>
+                    ▪  API security testing<br>
+                    ▪  XSS, CSRF, SSRF, XXE<br>
+                  [ tools, & frameworks ]<br>
+                    ▪  Metasploit, Burp Suite, SQLmap, Nmap<br>
+                    ▪  Wireshark, tcpdump, bettercap<br>
+                    ▪  Impacket, BloodHound, PowerSploit<br>
+                    ▪  Hydra, John the Ripper, Hashcat<br>
+                  [ infrastructure & networks ]<br>
+                    ▪  TCP/IP, subnetting, firewalls (basics)<br>
+                    ▪  Active Directory (learning how attacks work)<br>
+                    ▪  VPN, proxy chaining (theory + simple setups)<br>
+                </div>
+            </div>
+
+            <div id="contact" class="section">
+                <div class="section-prompt">> contact</div>
+                <div class="section-content">
+                    ▪  <a href="https://discord.com/users/652310680506073089" target="_blank" rel="noopener noreferrer">Discord</a><br>
+                    ▪  <a href="https://github.com/m1croslash" target="_blank" rel="noopener noreferrer">GitHub</a><br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="copyright">
+        © 2026 81jv-Terminal. All rights reserved.
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
