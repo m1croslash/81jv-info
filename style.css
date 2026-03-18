@@ -163,7 +163,7 @@ body {
 @media (max-width: 600px) {
     .terminal {
         padding: 20px 12px;
-        overflow-x: auto;  
+        overflow-x: auto;
     }
 
     .prompt {
@@ -180,7 +180,7 @@ body {
     .output {
         padding: 12px;
         font-size: 0.95rem;
-        overflow-x: auto; 
+        overflow-x: auto;
         white-space: pre-wrap;
     }
 
@@ -192,12 +192,12 @@ body {
     .section-content {
         font-size: 0.95rem;
         padding-left: 8px;
-        overflow-x: auto;    
-        white-space: pre;   
+        overflow-x: auto;
+        white-space: pre;
     }
 
     .section-content br {
-        display: block;     
+        display: block;
         content: "";
         margin: 4px 0;
     }
