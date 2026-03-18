@@ -17,6 +17,10 @@ document.addEventListener('DOMContentLoaded', function() {
                     behavior: 'smooth',
                     block: 'start'
                 });
+                console.log('Прокрутка к элементу:', targetId);
+            } else {
+                console.warn('Элемент с ID "' + targetId + '" не найден');
+            }
         });
     });
 });
