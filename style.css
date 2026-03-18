@@ -160,58 +160,59 @@ body {
     border-top: 1px solid #333333;
 }
 
+
 @media (max-width: 600px) {
     .terminal {
-        padding: 20px 12px;
-        overflow-x: auto;
+        padding: 15px;
     }
 
     .prompt {
         font-size: 1.1rem;
         white-space: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .buttons {
+        gap: 8px 15px;
+        justify-content: center;
+    }
 
     .term-btn {
         font-size: 1rem;
-        letter-spacing: 1px;
-        padding: 6px 2px;
+        padding: 5px 2px;
         white-space: nowrap;
     }
 
     .output {
-        padding: 12px;
         font-size: 0.95rem;
+        padding: 12px;
+        white-space: pre-wrap; 
         overflow-x: auto;
-        white-space: pre-wrap;
     }
 
     .section-prompt {
         font-size: 1.1rem;
         white-space: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
     }
 
     .section-content {
         font-size: 0.95rem;
-        padding-left: 8px;
-        overflow-x: auto;
-        white-space: pre;
-    }
-
-    .section-content br {
-        display: block;
-        content: "";
-        margin: 4px 0;
+        padding-left: 5px;
+        white-space: pre;           
+        overflow-x: auto;            
+        -webkit-overflow-scrolling: touch; 
+        display: block;             
     }
 
     .copyright {
         font-size: 1.2rem;
-        margin-top: 30px;
-        padding: 12px 0;
         white-space: nowrap;
         overflow-x: auto;
-    }
-
-    .buttons {
-        gap: 8px 16px;
-        justify-content: center;
+        -webkit-overflow-scrolling: touch;
+        margin-top: 30px;
+        padding: 10px 0;
     }
 }
