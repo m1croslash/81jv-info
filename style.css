@@ -162,27 +162,56 @@ body {
 
 @media (max-width: 600px) {
     .terminal {
-        padding: 20px 16px;
+        padding: 20px 12px;
+        overflow-x: auto;  
     }
+
     .prompt {
-        font-size: 1.2rem;
-    }
-    .term-btn {
         font-size: 1.1rem;
+        white-space: nowrap;
+
+    .term-btn {
+        font-size: 1rem;
         letter-spacing: 1px;
+        padding: 6px 2px;
+        white-space: nowrap;
     }
+
     .output {
-        padding: 16px;
-        font-size: 1rem;
+        padding: 12px;
+        font-size: 0.95rem;
+        overflow-x: auto; 
+        white-space: pre-wrap;
     }
+
     .section-prompt {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
+        white-space: nowrap;
     }
+
     .section-content {
-        font-size: 1rem;
+        font-size: 0.95rem;
+        padding-left: 8px;
+        overflow-x: auto;    
+        white-space: pre;   
     }
+
+    .section-content br {
+        display: block;     
+        content: "";
+        margin: 4px 0;
+    }
+
     .copyright {
-        font-size: 1.4rem;
-        margin-top: 40px;
+        font-size: 1.2rem;
+        margin-top: 30px;
+        padding: 12px 0;
+        white-space: nowrap;
+        overflow-x: auto;
+    }
+
+    .buttons {
+        gap: 8px 16px;
+        justify-content: center;
     }
 }
